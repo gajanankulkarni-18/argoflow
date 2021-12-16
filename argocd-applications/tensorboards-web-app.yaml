@@ -6,8 +6,8 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/ezeeyahoo/argoflow/tree/PPC
-    targetRevision: HEAD
+    repoURL: https://github.com/gajanankulkarni-18/argoflow/tree/PPC
+    targetRevision: PPC
     path: kubeflow/notebooks/tensorboards-web-app
     kustomize:
       version: v4.0.5
