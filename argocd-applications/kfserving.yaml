@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/gajanankulkarni-18/argoflow/tree/PPC
-    targetRevision: PPC
+    targetRevision: HEAD
     path: kubeflow/kfserving
     kustomize:
       version: v4.0.5
