@@ -6,11 +6,11 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/gajanankulkarni-18/argoflow/tree/PPC
-    targetRevision: HEAD
+    repoURL: https://github.com/gajanankulkarni-8/argoflow
+    targetRevision: PPC
     path: .
     kustomize:
-      version: v4.0.5
+      version: v4.4.1
   destination:
     server: https://kubernetes.default.svc
   syncPolicy:
