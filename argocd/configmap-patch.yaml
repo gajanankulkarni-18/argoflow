@@ -3,7 +3,7 @@ kind: ConfigMap
 metadata:
   name: argocd-cm
 data:
-  kustomize.version.v4.0.5: /custom-tools/kustomize_4_0_5
+  kustomize.version.v4.4.1: /custom-tools/kustomize_4_4_1
   resource.compareoptions: |
     ignoreAggregatedRoles: true
   resource.customizations: |
