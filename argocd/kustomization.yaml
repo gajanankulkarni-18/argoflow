@@ -4,7 +4,7 @@ namespace: argocd
 
 resources:
 - namespace.yaml
-- github.com/gajanankulkarni-18/argo-cd/manifests/cluster-install?ref=4c7aa4079191f1bc97bb8f79cad5b15231371f52 # tag=v2.0.3PPC
+- github.com/ezeeyahoo/argo-cd/manifests/cluster-install?ref=517b38083274bdb3546f9866c7f8049778914a89 # tag=ppc-2.0.3
 
 patchesStrategicMerge:
 - configmap-patch.yaml
