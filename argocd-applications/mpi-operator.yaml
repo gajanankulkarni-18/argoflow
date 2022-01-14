@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/gajanankulkarni-8/argoflow
+    repoURL: https://github.com/gajanankulkarni-18/argoflow
     targetRevision: PPC
     path: kubeflow/operators/mpi
     kustomize:
