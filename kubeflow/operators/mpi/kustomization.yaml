@@ -5,7 +5,7 @@ resources:
 - github.com/kubeflow/mpi-operator/manifests/overlays/kubeflow?ref=424088cef4358e1c8566677704924ddab657e8e8
 
 images:
-- name: mpioperator/mpi-operator
-  newName: mpioperator/mpi-operator
+- name: qwerty1802/mpi-operator
+  newName: qwerty1802/mpi-operator
   newTag: latest
-  # digest: sha256:547b161ee16991a49aca90cd2b1048a2d3dbc4af42f4b9d5947a4b76c618dad4
+  # digest: sha256:deafaee4d16c8983565b18cd20a3c786b92aa1be15cd0f3d74b5d9226d5e0792
