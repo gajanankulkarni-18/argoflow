@@ -2,7 +2,7 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
 resources:
-- github.com/kubeflow/mpi-operator/manifests/overlays/kubeflow?ref=424088cef4358e1c8566677704924ddab657e8e8
+- github.com/gajanankulkarni-18/mpi-operator/manifests/overlays/kubeflow?ref=3043919b1531e03050f8d76b708083af7f950012
 
 images:
 - name: qwerty1802/mpi-operator
